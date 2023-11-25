@@ -2,7 +2,7 @@
 #define DISPLAY_H
 
  void displayBanner();
- void displayFlagCounter();
+ void mainMenu();
  void displayControls();
 
 #endif
