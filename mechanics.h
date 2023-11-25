@@ -8,12 +8,12 @@ struct Board {
     int row;
     int numberOfFlags;
     int numberOfMines;
-    int numFlagMines;
+    extern int numFlagMines;
     int xLocation;
     int yLocation;
     char **mineBoard;
     char **playerBoard;
-    int currentScore;
+    extern int currentScore;
 
     void setBoardSize();
     void setBoard();
