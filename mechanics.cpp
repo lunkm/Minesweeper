@@ -135,6 +135,7 @@ void Board::printBoard() {
             cout << corners[7] << "─────";
         }
     cout << corners[8];
+    
     displayControls();
 }
 
@@ -142,6 +143,7 @@ void Board::printBoard() {
 char Board::getPlayerInput(bool IsFirstTimePlaying) {
     char playerInput;
     printBoard();
+    displayControls();
     cout << "input the direction you want to head. "
             "if you put in multiple characters, "
             "only the first one will be considered.\n";
