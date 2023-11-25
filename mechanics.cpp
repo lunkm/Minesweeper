@@ -230,9 +230,6 @@ void Board::uncover(int x, int y) {
         playerBoard[y][x] = '@';
         cout << "You uncovered a mine!\n";
         // not final. need to figure out a way to format this message below the board.
-        if(numFlagMines == numberOfMines){
-        cout << "You have uncovered all the mines!\n"
-        };
         return;
     }
     
