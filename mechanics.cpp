@@ -309,8 +309,4 @@ void Board::flagging() {
         numFlagMines += 1;
         return;
     }
-
-    if(numFlagMines == numberOfMines){
-        cout << "You have uncovered all the mines!\n"
-        }
 }
