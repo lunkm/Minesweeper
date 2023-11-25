@@ -29,20 +29,14 @@ void runGame() {
     b.delDynamic();
 }
 
-
-int main() {
-    runGame();
-    return 0;
-}
-
 int main() {
     mainMenu();
     int firstinput;
-    cin >> firstinput;
-    if(firstinput = 1){
-    runGame();}
-    else{
-        cout << "please enter the number again";
+    std::cin >> firstinput;
+    if (firstinput == 1) {
+        runGame();
+    } else {
+        std::cout << "Please enter the number again";
     }
     return 0;
 }
