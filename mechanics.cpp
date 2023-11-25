@@ -290,9 +290,6 @@ void Board::uncover(int x, int y) {
 
 // 'F' for flags? not final. Also, the scores need to be adjusted.
 void Board::flagging() {
-    numberOfFlags = numberOfMines;
-    currentScore = 5000;
-    //이 위에 두개 중간에 끼워넣어야 할듯 여기다 넣으면 계속 초기화될거 같아
     if (playerBoard[yLocation][xLocation] == 'F') {
         playerBoard[yLocation][xLocation] = ' ';
         numberOfFlags -= 1;
