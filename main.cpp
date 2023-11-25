@@ -25,13 +25,15 @@ void runGame() {
     } while (b.getPlayerInput(false) != 'm');
 
     // needs a function to end the game and save the scores and stuff.
-    if(numFlagMines == numberOfMines){
-        cout << "You have uncovered all the mines!\n"
-                "game over";
-        };
+    cout << "game over";
     b.delDynamic();
 }
 
+
+int main() {
+    runGame();
+    return 0;
+}
 
 int main() {
     mainMenu();
