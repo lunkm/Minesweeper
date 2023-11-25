@@ -16,7 +16,7 @@ void runGame() {
     } while (b.getPlayerInput(true) != 'o');
 
     // set the board using the first input, and reveal.
-    b.placeMines(int, int);
+    b.placeMines(x, y);
     b.uncover(b.xLocation, b.yLocation);
 
     // running the rest of the game.
