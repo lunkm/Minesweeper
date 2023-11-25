@@ -303,7 +303,7 @@ void Board::flagging() {
     }
 
     playerBoard[yLocation][xLocation] = 'F';
-    numberOfFlags += 1
+    numberOfFlags += 1;
     if(mineBoard[yLocation][xLocation] == 'B'){
         numFlagMines += 1;
         return;
